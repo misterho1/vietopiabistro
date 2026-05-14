@@ -4,7 +4,7 @@
 
 Website: https://vietopiabistro.com
 Tagline: Vietnamese, the way it's meant to be.
-Cuisine: Authentic Vietnamese — pho, banh mi, bun (vermicelli), com tam (broken rice), spring rolls, stir-fried noodles, vegetarian options.
+Cuisine: Authentic Vietnamese — pho (22 variants), vermicelli noodle bowls, egg noodles and lomein, fried rice, rice plates, chef specialties, vegetarian dishes, smoothies, and beverages.
 
 ## Locations
 
@@ -28,20 +28,21 @@ Cuisine: Authentic Vietnamese — pho, banh mi, bun (vermicelli), com tam (broke
 ## Menu
 Full menu: https://vietopiabistro.com/menu.html
 Same menu and pricing at both Taylorsville and West Jordan.
-Categories: Appetizers, Pho, Vermicelli (Bun), Rice Plates (Com Tam), Banh Mi, Stir-Fried Noodles, Vegetarian, Drinks, Desserts.
+Categories: Appetizers, Pho Noodle Soup, Vermicelli Noodle, Rice Plates, Egg Noodle / Flat Noodle / Fried Rice, Vegetarian Dishes, Chef Specialty, Smoothies, Beverages.
 Vegan, vegetarian, gluten-free, and spicy options are tagged on the menu.
 
 ## What we're known for
 - Twelve-hour pho broth made from beef and oxtail bones, charred ginger and onion, star anise, cinnamon, clove, cardamom. No instant base.
-- Banh mi on crackling baguettes with house-pickled daikon and carrot.
-- Bun (vermicelli) bowls and com tam (broken rice) plates with grilled, marinated proteins.
+- Lomein, fried rice, and crispy pan-fried egg noodles in many protein variations.
+- Vermicelli noodle bowls and broken rice plates with grilled, marinated proteins.
+- Chef specialties: shaking beef, salt-baked shrimp, pork loin in caramel sauce, salt-baked calamari.
 - Separate vegan broth for vegan pho.
 
 ## Catering
 Catering page: https://vietopiabistro.com/catering.html
 Service area: Salt Lake County, Silicon Slopes, downtown Salt Lake City.
 Group sizes: 10 to 100+.
-Packages: pho bar, banh mi platters, bun bowls, family party trays.
+Packages: pho bar, lomein platters, bun bowls, family party trays.
 
 ## Ordering
 Pickup orders through Toast Tab. Delivery orders through DoorDash. Both available on every page via the "Order Online" button.
