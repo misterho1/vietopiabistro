@@ -67,9 +67,9 @@ Living rules doc. Read before every change. Update whenever a new rule comes up.
 
 ### Online ordering integration
 - **Pickup:** Toast Tab, one URL per location.
-- **Delivery:** DoorDash and Grubhub, both with one URL per location. Customer picks.
-- **UX pattern:** single "Order Online" button on every page opens a modal picker. Three channels (Toast pickup, DoorDash delivery, Grubhub delivery) × two locations = six cards on general pages, three cards on location pages.
-- **Per-location pages:** `taylorsville.html` and `west-jordan.html` have `data-location="..."` on `<body>` so the modal only shows that location's three options.
+- **Delivery:** DoorDash, Grubhub, and Uber Eats, each with one URL per location. Customer picks.
+- **UX pattern:** single "Order Online" button on every page opens a modal picker. Four channels (Toast pickup, DoorDash delivery, Grubhub delivery, Uber Eats delivery) × two locations = eight cards on general pages, four cards on location pages.
+- **Per-location pages:** `taylorsville.html` and `west-jordan.html` have `data-location="..."` on `<body>` so the modal only shows that location's four options.
 - **Where the URLs live:** `assets/js/main.js`, top of file, in the `ORDER_URLS` object. All six URLs live there — single source of truth.
 - HTML `href` fallback on every Order Online anchor points at the Toast Taylorsville URL (used only when JS fails to load — graceful degradation to pickup).
 - We do NOT use a branded `order.vietopiabistro.com` subdomain anymore. All ordering jumps to Toast, DoorDash, or Grubhub directly.

@@ -19,6 +19,10 @@
     grubhub: {
       taylorsville: 'https://www.grubhub.com/restaurant/vietopia-bistro-taylorsville-5308-s-redwood-rd-salt-lake-city/3029526',
       'west-jordan': 'https://www.grubhub.com/restaurant/vietopia-bistro-west-jordan-1407-w-9000-s-west-jordan/3017369'
+    },
+    uber_eats: {
+      taylorsville: 'https://www.ubereats.com/store/vietopia-bistro-taylorsville/AXZetOASWOeZtVhnqUkukA',
+      'west-jordan': 'https://www.ubereats.com/store/vietopia-bistro-west-jordan/7qZEQdByWfOvMoGgfDVBbg'
     }
   };
 
@@ -37,7 +41,9 @@
       { ch: 'doordash', loc: 'taylorsville', label: 'Delivery · DoorDash', city: 'Taylorsville', sub: 'Fee and time vary' },
       { ch: 'doordash', loc: 'west-jordan',  label: 'Delivery · DoorDash', city: 'West Jordan',  sub: 'Fee and time vary' },
       { ch: 'grubhub',  loc: 'taylorsville', label: 'Delivery · Grubhub',  city: 'Taylorsville', sub: 'Fee and time vary' },
-      { ch: 'grubhub',  loc: 'west-jordan',  label: 'Delivery · Grubhub',  city: 'West Jordan',  sub: 'Fee and time vary' }
+      { ch: 'grubhub',  loc: 'west-jordan',  label: 'Delivery · Grubhub',  city: 'West Jordan',  sub: 'Fee and time vary' },
+      { ch: 'uber_eats', loc: 'taylorsville', label: 'Delivery · Uber Eats', city: 'Taylorsville', sub: 'Fee and time vary' },
+      { ch: 'uber_eats', loc: 'west-jordan',  label: 'Delivery · Uber Eats', city: 'West Jordan',  sub: 'Fee and time vary' }
     ];
 
     var cardHtml = cards
@@ -59,7 +65,7 @@
       + '<div class="order-modal__inner">'
       +   '<p class="eyebrow" style="margin-bottom: 0.5rem;">Order online</p>'
       +   '<h2 id="order-modal-title" style="margin-bottom: 0.5rem;">Pickup or delivery?</h2>'
-      +   '<p class="text-muted" style="margin-bottom: 1.25rem;">Pickup goes through Toast. Delivery is available via DoorDash or Grubhub.</p>'
+      +   '<p class="text-muted" style="margin-bottom: 1.25rem;">Pickup goes through Toast. Delivery is available via DoorDash, Grubhub, or Uber Eats.</p>'
       +   '<div class="order-modal__grid">' + cardHtml + '</div>'
       + '</div>';
 
