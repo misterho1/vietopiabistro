@@ -23,9 +23,19 @@ export async function onRequestPost(context) {
     return json({ ok: false, error: 'Please enter a valid email address.' }, 422);
   }
 
-  const inbox = env.CATERING_INBOX || env.INBOX_EMAIL || 'andrew@exclusiveut.com';
+  // Route by form_type. Food-truck booking → West Jordan team inbox.
+  // Catering leads → default catering inbox (override with CATERING_INBOX env var).
+  var inbox;
+  if (formType === 'food_truck_event') {
+    inbox = env.FOOD_TRUCK_INBOX || 'vietopiawj@gmail.com';
+  } else {
+    inbox = env.CATERING_INBOX || env.INBOX_EMAIL || 'andrew@exclusiveut.com';
+  }
 
   // TODO: wire MailChannels or Resend here. See functions/contact.js for the snippet.
+  // The function is currently a stub — it returns success but does not yet
+  // send the email. Wire MailChannels (one TXT DNS record + uncomment the
+  // block in functions/contact.js) to actually deliver.
 
   return json({
     ok: true,
